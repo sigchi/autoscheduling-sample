@@ -1,0 +1,16 @@
+{
+    "name": "autoscheduling-sample",
+    "version": "1.0.0",
+    "description": "SIGCHI/QOALA Autoscheduling sample",
+    "repository": "https://github.com/sigchi/autoscheduling-sample",
+    "main": "index.js",
+    "scripts": {
+        "start": "node --max-old-space-size=4096 index.js"
+    },
+    "author": "Kutsko, Anton <anton.kutsko@kandasoft.com>",
+    "license": "ISC",
+    "private": false,
+    "dependencies": {
+        "lodash": "^4.17.15"
+    }
+}
